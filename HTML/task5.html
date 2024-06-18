@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task - 5</title>
+</head>
+
+<body>
+    <h1>Task 5</h1>
+    <div id="form">
+        <h2>Registration form</h2>
+        <div>
+            <form action="#">
+                <table>
+                    <tr>
+                        <th>First Name</th>
+                        <td><input type="text" name="fname"></td>
+                    </tr>
+                    <tr>
+                        <th>Last Name</th>
+                        <td><input type="text" name="lname"></td>
+                    </tr>
+                    <tr>
+                        <th>Email Id</th>
+                        <td><input type="email" name="mail"></td>
+                    </tr>
+                    <tr>
+                        <th>Password</th>
+                        <td><input type="password" name="pass"></td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">Gender</th>
+                        <td><input type="radio" name="gender" value="male">Male</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="gender" value="female">Female</td>
+                    </tr>
+                    <tr>
+                        <th>Age</th>
+                        <td><input type="number" name="age"></td>
+                    </tr>
+                    <tr>
+                        <th>Phone Number</th>
+                        <td><input type="tel" name="phone"></td>
+                    </tr>
+                    <tr>
+                        <th>Address</th>
+                        <td><textarea name="addres"></textarea></td>
+                    </tr>
+                    <tr>
+                        <th>State</th>
+                        <td><input type="text" name="state"></td>
+                    </tr>
+                    <tr>
+                        <th>Country</th>
+                        <td><select name="country">
+                                <option value="india">india</option>
+                                <option value="usa">USA</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <th>Languages known</th>
+                        <td>
+                            <input type="checkbox" name="lang" value="english">English
+                            <input type="checkbox" name="lang" value="Hindi">Hindi
+                            <input type="checkbox" name="lang" value="Telugu">Telugu
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> <input type="checkbox" name="final"> I hereby declare all given details as true
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align: right;">Login to <a href="#">Ethnus </a> website</td>
+                    </tr>
+                </table>
+                <button onclick="submission()">Register</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
